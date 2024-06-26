@@ -13,3 +13,7 @@
 /*    justify-content: center !important;*/
 /*    height: 100%;*/
 /*}*/
+
+.bg-banner{
+    background: url('../../public/images/banner.png') center/cover;
+}

@@ -1,8 +1,9 @@
+import Image from "next/image";
 import React from "react";
 
 const GalleryItem = ({ src, setActiveImg }) => {
   return (
-    <img
+    <Image
       onClick={() => {
         setActiveImg(src);
       }}

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import chevron from "../../assets/icons/chevronDown.svg";
 import chevronUp from "../../assets/icons/chevronUp.svg";
+import Image from "next/image";
 
 const SelectItem = ({
   selectLabel,
@@ -118,7 +119,7 @@ const SelectItem = ({
             </option>
           ))}
         </select>
-        <img
+        <Image
           className="absolute right-4 top-[24px] pointer-events-none"
           src={chevron}
           alt="chevron.svg"
@@ -138,11 +139,10 @@ const SelectItem = ({
         {!dropdownOpen ? (
           <div className="relative">
             <p className="text-black text-base font-serrat-medium p-[16px]">
-              {schoolData.length
-                ? schoolData[value.school]?.title
-                : "Məktəbi qeyd edin "}
+            {schoolData[value.school]?.title??
+                "Məktəbi qeyd edin "}
             </p>
-            <img
+            <Image
               className="absolute right-4 top-[24px] pointer-events-none"
               src={chevron}
               alt="chevron.svg"
@@ -154,7 +154,7 @@ const SelectItem = ({
               <p className="text-black text-base font-serrat-medium p-[16px]">
                 {schoolData[value.school]?.title}
               </p>
-              <img
+              <Image
                 className="absolute right-4 top-[24px] pointer-events-none"
                 src={chevronUp}
                 alt="chevron.svg"

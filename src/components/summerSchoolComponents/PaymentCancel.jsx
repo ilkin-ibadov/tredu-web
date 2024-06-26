@@ -1,8 +1,9 @@
 import React from "react";
 import NavbarDark from "../navbar/NavbarDark";
 import Footer from "../footer/Footer";
-import cancel from "../assets/cancel.svg";
-import backgroundImage from "../assets/becomePartnerBg.png";
+import cancel from "@/images/cancel.svg";
+import backgroundImage from "@/images/becomePartnerBg.png";
+import Image from "next/image";
 
 
 const PaymentCancel = () => {
@@ -18,7 +19,7 @@ const PaymentCancel = () => {
         }}
       >
         <div className="sm:max-w-[540px] h-[600px] sm:h-fit bg-white rounded-[12px] px-[40px] py-[20px] sm:shadow-md sm:shadow-zinc-300 sm:my-[70px]">
-          <img src={cancel} alt="cancel.svg" />
+          <Image src={cancel} alt="cancel.svg" />
           <h3 className="text-[24px] text-[#374B9D] text-center font-bold">
           Ödəniş geri qaytarılacaq
           </h3>

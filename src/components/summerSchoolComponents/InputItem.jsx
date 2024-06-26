@@ -1,4 +1,5 @@
-import chevron from "../../assets/icons/chevronDown.svg";
+import chevron from "@/images/icons/chevronDown.svg";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const InputItem = ({
@@ -74,7 +75,7 @@ const InputItem = ({
               <option value={item.value}>{item.title}</option>
             ))}
           </select>
-          <img
+          <Image
             className="pointer-events-none absolute right-0 top-[20px] pr-2"
             src={chevron}
             alt="chevron.svg"

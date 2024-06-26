@@ -197,7 +197,7 @@ const SummerSchool = () => {
       id: id, // Include the id in the form data
     }));
 
-    const url = `https://api.tredu.io/api/summer-courses/${id}/pay/`;
+    const url = `https://api.tredu.io/api/summer-courses/${id}/pay-neqsol/`;
 
     try {
       const response = coupon
