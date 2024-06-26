@@ -19,15 +19,15 @@ const sectionTwoData = [
 const SectionTwo = () => {
   return (
     <section className="py-[60px] mt-[20px] mb-[80px] relative">
-      <Image className="absolute left-0 top-0" src={sectionTwoLeft} />
+      <Image className="w-[100px] h-[100px] -z-10 md:w-auto md:h-auto  absolute left-0 top-0" src={sectionTwoLeft} />
       <Image
-        className="absolute right-0 -bottom-[80px]"
+        className="absolute  w-[120px] h-[120px] -z-10 md:w-auto md:h-auto right-0 -bottom-[80px]"
         src={sectionTwoRight}
       />
-      <h2 className="text-center text-[44px] text-[#374B9D] font-semibold">
+      <h2 className="text-center z-50 text-[44px] text-[#374B9D] font-semibold">
         Tredu rəqəmlərdə
       </h2>
-      <div className="flex items-center justify-center gap-[50px] mt-[36px]">
+      <div className="grid grid-cols-2 md:flex items-center justify-center gap-[50px] mt-[36px]">
         {sectionTwoData.map((item) => (
           <SectionTwoItem item={item} />
         ))}
