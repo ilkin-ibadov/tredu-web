@@ -42,11 +42,11 @@ const PopularCourses = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col items-center">
-      <h2 className="text-center text-[44px] text-[#374B9D] font-semibold">
+    <div className="w-full flex flex-col items-center ">
+      <h2 className="text-center text-[28px] md:text-[44px] text-[#374B9D] font-semibold">
         Populyar kurslar
       </h2>
-      <div className="flex items-center gap-[16px] mt-[24px]">
+      <div className="flex overflow-scroll items-center px-[32px] gap-[16px] mt-[24px]">
         {categories.map((category) => (
           <CategoryItem
             name={category.name}

@@ -5,7 +5,7 @@ import subscribeRight from "../assets/images/subscribeRight.svg";
 
 const Subscribe = () => {
   return (
-    <div className="w-full px-[200px] pt-[80px] bg-[#2A5EE4] flex items-center gap-[140px] relative">
+    <div className="w-full px-[28px] md:px-[200px] pt-[80px] bg-[#2A5EE4] flex items-center gap-[140px] relative">
       <Image
         className="w-[80px] absolute left-0 top-[100px]"
         width={130}
@@ -26,7 +26,7 @@ const Subscribe = () => {
       />
 
       <div className="max-w-[440px] w-full">
-        <h3 className="text-[40px] text-white font-semibold">Abunə ol</h3>
+        <h3 className="text-[32px] md:text-[40px] text-white font-semibold">Abunə ol</h3>
         <p className="text-[16px] text-[#FBFBFB] mt-[16px] mb-[40px]">
           Tredu haqqında daima yeniliklərdən xəbərdar olmaq, yeni partnyor və
           kursları qaçırmamaq üçün xəbər lentamıza abunə ol

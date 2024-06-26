@@ -35,33 +35,33 @@ const Benefits = () => {
   return (
     <div className="w-full bg-[#0079E9] mt-[95px] pt-[72px] relative">
       <Image
-        className="absolute top-0 left-0"
+        className=" absolute z-0 top-0 left-0"
         width={140}
         height={140}
         src={benefitsTopLeft}
       />
       <Image
-        className="absolute bottom-[60px] left-[36px]"
+        className=" absolute z-0 bottom-[60px] left-[36px]"
         width={50}
         height={50}
         src={benefitsBottomLeft}
       />
       <Image
-        className="absolute top-[70px] right-[36px]"
+        className=" absolute z-0 top-[70px] right-[36px]"
         width={50}
         height={50}
         src={benefitsTopRight}
       />
        <Image
-        className="absolute bottom-0 right-0"
+        className=" absolute z-0 bottom-0 right-0"
         width={140}
         height={140}
         src={benefitsBottomRight}
       />
-      <h2 className="text-center font-semibold text-[48px] text-white mb-[24px]">
+      <h2 className="text-center font-semibold text-[28px] md:text-[48px] text-white mb-[24px]">
         Üstünlüklər
       </h2>
-      <div className="w-full grid grid-cols-3 gap-x-[46px] gap-y-[28px] px-[180px] pb-[50px]">
+      <div className="!z-20 w-full grid  grid-cols-1 md:grid-cols-3 gap-x-[46px] gap-y-[28px] px-[50px] md:px-[180px] pb-[50px]">
         {benefitsRow1.map((benefit, index) => (
           <BenefitCard
             desc={benefit.desc}
@@ -70,7 +70,7 @@ const Benefits = () => {
           />
         ))}
       </div>
-      <div className="w-full grid grid-cols-2 gap-x-[46px] gap-y-[28px] px-[340px] pb-[50px]">
+      <div className="!z-20 w-full grid grid-cols-1 md:grid-cols-2 gap-x-[46px] gap-y-[28px] px-[50px] md:px-[340px] pb-[50px]">
         {benefitsRow2.map((benefit, index) => (
           <BenefitCard
             desc={benefit.desc}
