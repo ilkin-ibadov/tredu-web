@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-slide-centered .slick-slide {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/*.slick-list {*/
+/*    display: flex !important;*/
+/*    flex-direction: column !important;*/
+/*    justify-content: center !important;*/
+/*    height: 100%;*/
+/*}*/

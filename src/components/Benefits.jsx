@@ -35,7 +35,7 @@ const Benefits = () => {
   return (
     <div className="w-full bg-[#0079E9] mt-[95px] pt-[72px] relative">
       <Image
-        className=" absolute z-0 top-0 left-0"
+        className="absolute z-0 top-0 left-0"
         width={140}
         height={140}
         src={benefitsTopLeft}
@@ -58,7 +58,7 @@ const Benefits = () => {
         height={140}
         src={benefitsBottomRight}
       />
-      <h2 className="text-center font-semibold text-[28px] md:text-[48px] text-white mb-[24px]">
+      <h2 className="text-center relative font-semibold text-[28px] md:text-[48px] text-white mb-[24px]">
         Üstünlüklər
       </h2>
       <div className="!z-20 w-full grid  grid-cols-1 md:grid-cols-3 gap-x-[46px] gap-y-[28px] px-[50px] md:px-[180px] pb-[50px]">

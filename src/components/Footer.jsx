@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.svg";
 const Footer = () => {
   return (
     <div className="w-full px-[115px]">
-      <div className="flex items-center justify-between py-[45px] border-b border-zinc-200">
+      <div className="flex items-center flex-col gap-5 sm:gap-0 sm:flex-row justify-between py-[45px] border-b border-zinc-200">
         <Image src={logo} />
         <ul className="flex items-center gap-[33px] text-[16px] leading-[24px] text-[#5D5A88]">
           <li>Ana səhifə</li>

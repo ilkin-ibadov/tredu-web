@@ -29,7 +29,7 @@ const SectionTwo = () => {
       </h2>
       <div className="grid grid-cols-2 md:flex items-center justify-center gap-[50px] mt-[36px]">
         {sectionTwoData.map((item) => (
-          <SectionTwoItem item={item} />
+          <SectionTwoItem key={item.title} item={item} />
         ))}
       </div>
     </section>

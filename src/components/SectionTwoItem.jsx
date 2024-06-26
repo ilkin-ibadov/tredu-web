@@ -5,7 +5,7 @@ const SectionTwoItem = ({ item }) => {
   const { logo, number, title } = item;
 
   return (
-    <div className="w-[200px] flex flex-col items-center">
+    <div className="sm:w-[200px] flex flex-col items-center">
       <Image
         className="h-[44px] w-[44px] md:h-[60px] md:w-[60px] p-[10px] rounded-full shadow-lg shadow-zinc-300"
         src={logo}
