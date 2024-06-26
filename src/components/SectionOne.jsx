@@ -11,7 +11,7 @@ const SectionOne = () => {
         width: "100%",
         height: "100%",
       }}
-      className="w-full md:pt-[40px] px-[11px] md:px-[100px] pb-[87px] "
+      className="w-full md:pt-[40px] px-[11px] md:px-[100px] pb-[87px] pt-3"
     >
       <Navbar />
       <div className={`flex px-[50px] md:px-0 flex-col-reverse md:flex-row items-center justify-center md:justify-between pt-[50px] md:pr-[33px]`}>

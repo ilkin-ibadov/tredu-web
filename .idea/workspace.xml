@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="069e8285-05d3-4c77-9801-a9b110f6cfbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Benefits.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Benefits.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Partners.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Partners.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PopularCourses.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopularCourses.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SectionTwo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionTwo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SectionTwoItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SectionTwoItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Subscribe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Subscribe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719413032827</updated>
-      <workItem from="1719413033939" duration="5435000" />
+      <workItem from="1719413033939" duration="6306000" />
     </task>
     <servers />
   </component>

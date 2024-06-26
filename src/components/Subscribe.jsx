@@ -6,7 +6,7 @@ import subscribeRight from "../assets/images/subscribeRight.svg";
 
 const Subscribe = () => {
   return (
-    <div className="w-full pb-9 px-[28px] md:px-[200px] pt-[80px] bg-[#2A5EE4] flex sm:flex-row flex-col items-center sm:gap-[140px] relative">
+    <div className="w-full pb-9 sm:pb-0 px-[28px] md:px-[200px] pt-[80px] bg-[#2A5EE4] flex sm:flex-row flex-col items-center sm:gap-[140px] relative">
       <Image
         className="w-[80px] absolute left-0 top-[100px]"
         width={130}
