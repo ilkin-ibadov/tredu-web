@@ -24,7 +24,7 @@ const SectionTwo = () => {
         className="absolute  w-[120px] h-[120px] -z-10 md:w-auto md:h-auto right-0 -bottom-[80px]"
         src={sectionTwoRight}
       />
-      <h2 className="text-center z-50 text-[44px] text-[#374B9D] font-semibold">
+      <h2 className="text-center z-50 text-[28px] md:text-[44px] text-[#374B9D] font-semibold">
         Tredu rəqəmlərdə
       </h2>
       <div className="grid grid-cols-2 md:flex items-center justify-center gap-[50px] mt-[36px]">
